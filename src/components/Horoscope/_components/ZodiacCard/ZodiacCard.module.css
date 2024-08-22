@@ -1,0 +1,30 @@
+.card {
+  min-width: 225px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.signName {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.dateRange {
+  font-size: 0.9em;
+  color: #aaa;
+}

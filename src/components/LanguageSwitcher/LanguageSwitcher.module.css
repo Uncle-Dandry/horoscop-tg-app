@@ -1,0 +1,22 @@
+.switcher {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  min-width: 115px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.button.active,
+.button:hover {
+  background-color: #fff;
+  color: #333;
+}

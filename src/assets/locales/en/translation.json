@@ -1,0 +1,32 @@
+{
+  "back": "Back",
+  "dateRange": "Date Range",
+  "languageSwitcher": {
+    "ru": "Russian",
+    "en": "English"
+  },
+  "aries": "Aries",
+  "aries-range": "March 21 - April 19",
+  "taurus": "Taurus",
+  "taurus-range": "April 20 - May 20",
+  "gemini": "Gemini",
+  "gemini-range": "May 21 - June 20",
+  "cancer": "Cancer",
+  "cancer-range": "June 21 - July 22",
+  "leo": "Leo",
+  "leo-range": "July 23 - August 22",
+  "virgo": "Virgo",
+  "virgo-range": "August 23 - September 22",
+  "libra": "Libra",
+  "libra-range": "September 23 - October 22",
+  "scorpio": "Scorpio",
+  "scorpio-range": "October 23 - November 21",
+  "sagittarius": "Sagittarius",
+  "sagittarius-range": "November 22 - December 21",
+  "capricorn": "Capricorn",
+  "capricorn-range": "December 22 - January 19",
+  "aquarius": "Aquarius",
+  "aquarius-range": "January 20 - February 18",
+  "pisces": "Pisces",
+  "pisces-range": "February 19 - March 20"
+}
