@@ -31,7 +31,7 @@ const ZodiacDetails: FC<ZodiacDetailsProps> = ({
         className={styles.button}
         onClick={onBack}
       >
-        Назад
+        {t('button_back')}
       </button>
     </div>
   );
