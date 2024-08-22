@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/horoscop-tg-app/static/css/main.1c20a7d2.css",
-    "main.js": "/horoscop-tg-app/static/js/main.c1ce4e60.js",
+    "main.js": "/horoscop-tg-app/static/js/main.aed1909e.js",
     "index.html": "/horoscop-tg-app/index.html",
     "main.1c20a7d2.css.map": "/horoscop-tg-app/static/css/main.1c20a7d2.css.map",
-    "main.c1ce4e60.js.map": "/horoscop-tg-app/static/js/main.c1ce4e60.js.map"
+    "main.aed1909e.js.map": "/horoscop-tg-app/static/js/main.aed1909e.js.map"
   },
   "entrypoints": [
     "static/css/main.1c20a7d2.css",
-    "static/js/main.c1ce4e60.js"
+    "static/js/main.aed1909e.js"
   ]
 }
