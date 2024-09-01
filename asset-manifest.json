@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/horoscop-tg-app/static/css/main.1c20a7d2.css",
+    "main.js": "/horoscop-tg-app/static/js/main.a2c4429e.js",
+    "index.html": "/horoscop-tg-app/index.html",
+    "main.1c20a7d2.css.map": "/horoscop-tg-app/static/css/main.1c20a7d2.css.map",
+    "main.a2c4429e.js.map": "/horoscop-tg-app/static/js/main.a2c4429e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c20a7d2.css",
+    "static/js/main.a2c4429e.js"
+  ]
+}
