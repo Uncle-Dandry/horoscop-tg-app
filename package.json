@@ -1,8 +1,8 @@
 {
-  "name": "horoscop-tg-app",
+  "name": "horoscope-tg-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uncle-dandry.github.io/horoscop-tg-app",
+  "homepage": "https://uncle-dandry.github.io/horoscope-tg-app",
   "dependencies": {
     "i18next": "^23.14.0",
     "react": "^18.3.1",

@@ -1,4 +1,4 @@
-# horoscop-tg-app
+# horoscope-tg-app
 
 Amazing horoscope right in your telegram
 
