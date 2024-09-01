@@ -39,23 +39,24 @@ const App: FC = () => {
         if (selectedZodiac) {
           setLoading(true);
 
+          const url = `${API_URL}/get_horoscope/${selectedZodiac}/today/general/${
+            i18n.language === 'ru'
+              ? 'en'
+              : 'en'
+          }`;
+
           try {
-            const response = await fetch(`${API_URL}/get_horoscope/`, {
-              method: 'POST',
+            const response = await fetch(url, {
+              method: 'GET',
               headers: {
                 'Content-Type': 'application/json',
+                'x-rapidapi-key': '0be3be10e5msh3a847340d14f34ep1a783ejsn730260106265',
+                'x-rapidapi-host': 'horoscopes-ai.p.rapidapi.com'
               },
-              body: JSON.stringify({
-                selectedZodiac,
-                language: i18n.language === 'ru'
-                  ? 'original'
-                  : 'translated',
-                period: 'today',
-              }),
             });
       
             const data = await response.json();
-            setDescription(data.horoscope[selectedZodiac] || data.horoscope);
+            setDescription(data.general[0] || data.general);
           } catch (error) {
             console.error('Error fetching horoscope data:', error);
           } finally {
@@ -74,7 +75,6 @@ const App: FC = () => {
   const handleBack = () => {
     setSelectedZodiac(null);
     setDescription(null);
-    // window.history.back();
   };
 
   return (

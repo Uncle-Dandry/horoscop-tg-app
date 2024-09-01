@@ -9,6 +9,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    env:
+      REACT_APP_API_LINK: ${{ secrets.REACT_APP_API_LINK }}
+
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
@@ -24,8 +27,6 @@ jobs:
       - name: Build the project
         run: |
           npm run build
-        env:
-          REACT_APP_API_LINK: ${{ secrets.REACT_APP_API_LINK }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
