@@ -41,7 +41,7 @@ const App: FC = () => {
 
           const url = `${API_URL}/get_horoscope/${selectedZodiac}/today/general/${
             i18n.language === 'ru'
-              ? 'en'
+              ? 'ru'
               : 'en'
           }`;
 
