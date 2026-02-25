@@ -1,7 +1,5 @@
 import { ZodiacDetails } from 'types/main';
 
-export const API_URL = process.env.REACT_APP_API_LINK;
-
 export const ZODIACS: ZodiacDetails[] = [
   {
     sign: 'aries',

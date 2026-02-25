@@ -1,8 +1,6 @@
-import { type FC } from 'react';
-
 import styles from './GlassSpinner.module.css';
 
-const GlassSpinner: FC = () => (
+const GlassSpinner = () => (
   <div className={styles.spinnerContainer}>
     <svg className={styles.glassSpinner} viewBox="0 0 50 50">
       <circle

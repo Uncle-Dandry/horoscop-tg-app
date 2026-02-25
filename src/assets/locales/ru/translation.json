@@ -1,6 +1,11 @@
 {
   "button_back": "Назад",
+  "periodLabel": "Период",
   "dateRange": "Период дат",
+  "periodSwitcher": {
+    "daily": "На день",
+    "weekly": "На неделю"
+  },
   "languageSwitcher": {
     "ru": "Русский",
     "en": "Английский"

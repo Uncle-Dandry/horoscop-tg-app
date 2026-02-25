@@ -1,20 +1,22 @@
-import type { FC } from 'react';
-
 import { useTranslation } from 'react-i18next';
+
+import type { HoroscopePeriod } from 'types/main';
 
 import styles from './ZodiacDetails.module.css';
 
 interface ZodiacDetailsProps {
   sign: string,
+  period: HoroscopePeriod,
   description: string,
-  onBack: any;
+  onBack: () => void;
 }
 
-const ZodiacDetails: FC<ZodiacDetailsProps> = ({
+const ZodiacDetails = ({
   sign,
+  period,
   description,
   onBack,
-}) => {
+}: ZodiacDetailsProps) => {
   const { t } = useTranslation();
 
   return (
@@ -22,6 +24,10 @@ const ZodiacDetails: FC<ZodiacDetailsProps> = ({
       <h2 className={styles.title}>
         {t(sign)}
       </h2>
+
+      <p className={styles.period}>
+        {`${t('periodLabel')}: ${t(`periodSwitcher.${period}`)}`}
+      </p>
 
       <p className={styles.description}>
         {description}

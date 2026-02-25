@@ -3,3 +3,5 @@ export interface ZodiacDetails {
   dateRange: string;
   iconSrc: string;
 }
+
+export type HoroscopePeriod = 'daily' | 'weekly';

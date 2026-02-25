@@ -28,11 +28,17 @@
   color: #fff;
 }
 
+.period {
+  margin-top: 8px;
+  color: #d0d0d0;
+  font-size: 0.95rem;
+}
+
 .description {
   margin-top: 20px;
   font-size: 1.2rem;
   color: #aaa;
-  text-align: left;
+  text-align: justify;
 
   @media screen and (max-width: 620px) {
     font-size: 1.1rem;

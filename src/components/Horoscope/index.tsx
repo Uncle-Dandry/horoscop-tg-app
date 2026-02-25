@@ -1,5 +1,3 @@
-import type { FC } from 'react';
-
 import { ZODIACS } from 'constants/main';
 
 import { ZodiacCard } from './_components';
@@ -10,9 +8,9 @@ interface HoroscopeProps {
   onSelect: (sign: string) => void;
 }
 
-const Horoscope: FC<HoroscopeProps> = ({
+const Horoscope = ({
   onSelect,
-}) => {
+}: HoroscopeProps) => {
   return (
     <div className={styles.list}>
       {ZODIACS.map(({

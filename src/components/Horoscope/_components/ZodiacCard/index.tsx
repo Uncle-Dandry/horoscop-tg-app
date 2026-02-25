@@ -1,4 +1,3 @@
-import type { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import styles from './ZodiacCard.module.css';
@@ -10,12 +9,12 @@ interface ZodiacCardProps {
   onClick: () => void;
 }
 
-const ZodiacCard: FC<ZodiacCardProps> = ({
+const ZodiacCard = ({
   sign,
   dateRange,
   iconSrc,
   onClick,
-}) => {
+}: ZodiacCardProps) => {
   const { t } = useTranslation();
 
   return (
